@@ -1,0 +1,82 @@
+@charset "utf-8";
+.CO1 {
+    width: 100px;
+    height: 100px;
+    background-color: #465FFF;
+    text-align: center;
+    -webkit-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+    color: #000000;
+    font-size: 23px; 
+	color: #FFFFFF;
+    margin-top: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CO2 {
+    width: 100px;
+    height: 100px;
+    background-color: #0020ED;
+    text-align: center;
+    -webkit-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+    font-size: 23px;
+	  color: #FFFFFF;
+    margin-top: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CO3 {
+    width: 100px;
+    height: 100px;
+    background-color: #00128C;
+    text-align: center;
+    -webkit-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+    font-size: 23px;
+    color: #FFFFFF;
+    margin-top: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CO1:hover {
+    color: #BF540C;
+	background-color: #FFFEAF;
+	transform:rotate(10deg) translateX(50px);
+	font-size: 50px;
+}
+
+.CO2:hover {
+    color: #BF540C;
+	background-color: #FFFEAF;
+	transform: rotate(15deg);
+	font-size: 50px;
+}
+.CO3:hover {
+    color: #BF540C;
+	background-color: #FFFEAF;
+	font-size: 50px;
+	width: 150px;
+    height: 150px;
+}
+.WO {
+    display: flex;
+	flex-direction: column;
+	 justify-content: center;
+    align-items: center;
+}
